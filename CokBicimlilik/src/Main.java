@@ -1,6 +1,13 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Hayvan hayvan = new Hayvan();
+        hayvan.HayvanSesi();
+
+        Kopek kopek = new Kopek();
+        kopek.HayvanSesi();
+
+        Kedi kedi = new Kedi();
+        kedi.HayvanSesi();
     }
 }
