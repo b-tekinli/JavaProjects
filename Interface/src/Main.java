@@ -1,5 +1,6 @@
 interface Hayvan {
     public void HayvanSesi();
+
     public void Kos();
 }
 
@@ -10,6 +11,7 @@ interface Canli {
 
 
 class Kedi implements Hayvan {
+
     @Override
     public void HayvanSesi() {
         System.out.println("Kedi miyav der.");
@@ -51,5 +53,6 @@ public class Main {
         kopek.HayvanSesi();
         kopek.Kos();
         kopek.NefesAl();
+
     }
 }
